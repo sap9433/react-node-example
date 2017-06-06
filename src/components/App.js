@@ -31,7 +31,7 @@ export class App extends Component {
         {
             weather.list.map((res, val) => {
 
-              return ( < div >
+              return ( < div className='eachAddressBlock'>
                 < div className='header'> { res.weather[0].description } < /div>
                 { _.map(res.main, (val , key) => {
                 	return < div className='description'> {key} , {val} < /div > 

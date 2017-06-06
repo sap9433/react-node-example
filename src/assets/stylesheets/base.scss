@@ -9,10 +9,20 @@ body {
   font-size: 16px;
 }
 
-.description{
-	padding: 10px;
+.description {
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid;
+  margin: 2px;
+  color: #9c9c9c;
 }
 
-.header{
-	padding: 5px;
+.header {
+  padding: 5px;
+}
+
+.eachAddressBlock {
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 1px 1px 1px 1px #ded7d7;
 }
