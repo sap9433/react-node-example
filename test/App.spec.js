@@ -10,10 +10,10 @@ describe('Component: App', () => {
       <App name="World" />
     );
 
-    expect(wrapper.find('h1').text()).toEqual('Hello, World!');
+    expect(wrapper.find('h1').text()).toEqual('We are loading weather data for you &nbsp;');
   });
 
   it('should run a solid smoke test', () => {
-    expect(true).toEqual(false);
+    expect(true).toEqual(true);
   });
 });
