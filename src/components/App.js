@@ -20,7 +20,6 @@ export class App extends Component {
     }).then(response => {
       return response.json();
     }).then(weather => {
-      debugger
       this.setState({ weather })
     });
   }
@@ -28,7 +27,6 @@ export class App extends Component {
 
   render() {
       const { weather } = this.state;
-      debugger
       return ( weather.list ? < div > 
         {
             weather.list.map((res, val) => {
