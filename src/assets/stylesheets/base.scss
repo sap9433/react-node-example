@@ -18,11 +18,24 @@ body {
 }
 
 .header {
-  padding: 5px;
+  margin: 5px;
+  color: #8b8bbd;
+}
+
+.head {
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #a78686;
 }
 
 .eachAddressBlock {
-  padding: 10px;
-  margin: 5px;
+  padding: 15px;
+  margin: 7px;
   box-shadow: 1px 1px 1px 1px #ded7d7;
+}
+
+.main {
+  padding: 5px;
+  margin-bottom: 3px;
+  color: #5a5a67;
 }
