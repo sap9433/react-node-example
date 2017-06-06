@@ -2,8 +2,7 @@
 _for [Heroku](https://www.heroku.com/) deployment_
 
 ### OVERIVEW
-This is a simple starter to get you up and running for React projects. This is intended to provide:
-
+#### An simple React / Express Application to see past 5 days weather data
 * a lightweight webpack config (for development and production)
 * some helpful tooling for development workflow
 * a similar setup to what you'll see in the wild
